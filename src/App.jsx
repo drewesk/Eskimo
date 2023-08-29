@@ -59,15 +59,15 @@ function App() {
       >
         <img style={{ width: "100%" }} src="Forest.webp" alt="background" />
       </Plx>
-      <Plx
+     <Plx
         parallaxData={[
           {
             start: 0,
             end: 400,
             properties: [
               {
-                startValue: 1,
-                endValue: 0,
+                startValue: 0,
+                endValue: 1,
                 property: "opacity"
               }
             ]
@@ -76,7 +76,36 @@ function App() {
         style={{
           position: "fixed",
           left: 0,
-          top: "26vw",
+          top: "10vw",
+          width: "100%"
+        }}
+      >
+        <img
+          style={{
+            width: "37vw"
+          }}
+          src="/Black logo - no background copy.svg"
+          alt="Goonies"
+        />
+      </Plx> 
+      <Plx
+        parallaxData={[
+          {
+            start: 0,
+            end: 400,
+            properties: [
+              {
+                startValue: 1,
+                endValue: -1,
+                property: "opacity"
+              }
+            ]
+          }
+        ]}
+        style={{
+          position: "fixed",
+          left: 0,
+          top: "4vw",
           width: "100%"
         }}
       >
@@ -84,7 +113,7 @@ function App() {
           style={{
             width: "30vw"
           }}
-          src="/text-img.png"
+          src="/why.png"
           alt="Goonies"
         />
       </Plx>
