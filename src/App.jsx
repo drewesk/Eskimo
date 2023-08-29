@@ -5,12 +5,12 @@ import './App.css'
 
 import Plx from 'react-plx'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
 
   return (
     <>
 <div>
+
       <Plx
         parallaxData={[
           {
@@ -140,4 +140,3 @@ function App() {
   )
 }
 
-export default App
