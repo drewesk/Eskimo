@@ -113,7 +113,7 @@ export default function App() {
           style={{
             width: "30vw"
           }}
-          src="/why.png"
+          src="/wow1.png"
           alt="Goonies"
         />
       </Plx>
